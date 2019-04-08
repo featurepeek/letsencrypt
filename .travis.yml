@@ -8,3 +8,6 @@ before_install:
 install:
   - hugo env
   - hugo
+
+addons:
+  artifacts: true
